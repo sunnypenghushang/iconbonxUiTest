@@ -61,7 +61,7 @@ public class AppiumServerOnOff extends Thread {
    public static void main(String args[])
    {
 	 
-	   new AppiumServerOnOff().start();
+	   
 
    }
    
