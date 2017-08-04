@@ -1,0 +1,541 @@
+--------- beginning of main
+
+07-31 09:54:02.246  1504  3415 D ProcessTrace: mPassTime = 120123, mPassUpTimeMs = 120123, mDownloadRate = 349883
+
+--------- beginning of system
+
+07-31 09:54:02.524 13079 13079 W FtTelephonyAdapterImpl: getActiveSubInfoList.subInfo is empty
+
+07-31 09:54:02.524 13079 13079 D Mms/CacheDelay: ---->>>start cache------------
+
+07-31 09:54:02.527 13079 13079 I Mms/PrivacyMessageProcess: PrivacyMessageProcess init
+
+07-31 09:54:02.527 13079 13146 I ContactArray: ContactsCache init begin:1501466042527
+
+07-31 09:54:02.529   941  1957 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@c346247 (pid=13079, userId=0) to get content provider com.android.contacts cpr=ContentProviderRecord{91e9e7b u0 com.android.providers.contacts/.ContactsProvider2}
+
+07-31 09:54:02.529   941  1957 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{65e19de 3079:android.process.acore/u0a4}
+
+07-31 09:54:02.530 13079 13079 D Mms/CacheDelay: ---->>>cache finish------------
+
+07-31 09:54:02.531 13079 13147 I PrivacyContactsArray: PrivacyContactsCache init begin:1501466042531
+
+07-31 09:54:02.532   941  1996 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@229aa74 (pid=13079, userId=0) to get content provider com.android.contacts cpr=ContentProviderRecord{91e9e7b u0 com.android.providers.contacts/.ContactsProvider2}
+
+07-31 09:54:02.533 13079 13146 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@6365b63, holder.provider:android.content.ContentProviderProxy@68f4360
+
+07-31 09:54:02.534 13079 13147 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@5e678de, holder.provider:android.content.ContentProviderProxy@5a94abf
+
+07-31 09:54:02.536  3079  3089 I ContactsProvider: query: uri=content://com.android.contacts/data/phones?encrypt=%20%3C%202 , projection=[_id, display_name, data1] , selection=[null] , args=null , order=[_id LIMIT 2000 OFFSET 0] CPID=13079 , User=0 , callingPackage=[com.android.mms]
+
+07-31 09:54:02.537  3079  3090 I ContactsProvider: query: uri=content://com.android.contacts/data?encrypt=%3E0 , projection=[contact_id, raw_contact_id, display_name, data1] , selection=[mimetype_id = 5] , args=null , order=[null] CPID=13079 , User=0 , callingPackage=[com.android.mms]
+
+07-31 09:54:02.541 13079 13147 D PrivacyContactsArray: -----count = 0
+
+07-31 09:54:02.542   941  1404 V ActivityManager: Broadcast: Intent { act=com.android.mms.ACTION_NAME_LOAD_FINISHED flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{29e05b9 13079:com.android.mms/u0a11}
+
+07-31 09:54:02.542 13079 13146 I ContactArray: ContactsCache init complete:1501466042542
+
+07-31 09:54:02.542 13079 13147 I PrivacyContactsArray: PrivacyContactsCache init complete:1501466042542
+
+07-31 09:54:02.543 13079 13147 I Mms/PrivacyMessageProcess: PrivacyContactsCache run done....
+
+07-31 09:54:02.544 13079 13146 E PatternBuilder:  Incorrectly nested parentheses in regexp pattern
+
+07-31 09:54:02.544 13079 13146 W System.err: java.util.regex.PatternSyntaxException: Incorrectly nested parentheses in regexp pattern near index 1:
+
+07-31 09:54:02.544 13079 13146 W System.err: )
+
+07-31 09:54:02.544 13079 13146 W System.err:  ^
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at java.util.regex.Pattern.compileImpl(Native Method)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at java.util.regex.Pattern.compile(Pattern.java:411)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at java.util.regex.Pattern.<init>(Pattern.java:394)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at java.util.regex.Pattern.compile(Pattern.java:381)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at com.android.mms.data.contactcache.PatternBuilder.buildNameMTPattern(PatternBuilder.java:69)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at com.android.mms.data.contactcache.PatternBuilder.build(PatternBuilder.java:24)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at com.android.mms.data.contactcache.ContactsArray.init(ContactsArray.java:67)
+
+07-31 09:54:02.545 13079 13146 W System.err: 	at com.android.mms.data.contactcache.ContactsCacheProcess$InitThread.run(ContactsCacheProcess.java:71)
+
+07-31 09:54:02.545 13079 13146 I ContactsCacheProcess: ContactsCache run done....
+
+07-31 09:54:02.546   941  1957 V ActivityManager: Broadcast: Intent { act=com.android.mms.privacymsg.cacheover flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{29e05b9 13079:com.android.mms/u0a11}
+
+07-31 09:54:02.603   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:02.600   839   839 W viarild : type=1400 audit(0.0:2367): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:02.724   941  1996 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@7651b9d (pid=13079, userId=0) to get content provider sms cpr=ContentProviderRecord{56a054c u0 com.android.providers.telephony/.SmsProvider}
+
+07-31 09:54:02.724   941  1996 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{335c711 1907:com.android.phone/1001}
+
+07-31 09:54:02.725 13079 13079 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@c95358c, holder.provider:android.content.ContentProviderProxy@820a4d5
+
+07-31 09:54:03.387   941  1259 D PerfServiceManager: [PerfService] MESSAGE_TIMEOUT:106 
+
+07-31 09:54:03.401   941  1259 I libPerfService: 6: set: -1, -1, 
+
+07-31 09:54:03.403   941  1259 I libPerfService: 6: set freq: -1, -1, 
+
+07-31 09:54:03.604   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:03.600   839   839 W viarild : type=1400 audit(0.0:2368): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:04.604   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:04.600   839   839 W viarild : type=1400 audit(0.0:2369): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:05.023   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 772
+
+07-31 09:54:05.024   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:05.042   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:05.042   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=36000
+
+07-31 09:54:05.042   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:05.042   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:05.140   435   435 I thermal_repeater: oh, queryMdThermalInfo (0)No such file or directory
+
+07-31 09:54:05.144   435   435 I thermal_repeater: [recvMdThermalInfo] ret=5, strLen=127, ERROR
+
+07-31 09:54:05.600   839   839 W viarild : type=1400 audit(0.0:2370): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:05.605   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:05.981   941  1106 I PackageManager: mcs_unbind
+
+07-31 09:54:05.981   941  1106 I PackageManager: calling disconnectService()
+
+07-31 09:54:05.981   941  1106 I PackageManager: disconnectService: false
+
+07-31 09:54:05.987  4997  4997 D ActivityThread: SVC-UNBIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@27dd155 intent=Intent { cmp=com.android.defcontainer/.DefaultContainerService }}
+
+07-31 09:54:05.987  4997  4997 D ActivityThread: SVC-Destroying service: com.android.defcontainer.DefaultContainerService@218376a
+
+07-31 09:54:05.994  4997  4997 D ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@27dd155
+
+07-31 09:54:06.524 13079 13079 V MMSLog  : ----------onReceiveWithPrivilege----------
+
+07-31 09:54:06.530   941  1995 D AppOps  : startOperation: allowing code 40 uid 10011 package com.android.mms
+
+07-31 09:54:06.539 13079 13079 D ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@9dd44ea className=com.android.mms.transaction.SmsReceiverService packageName=com.android.mms intent=null}
+
+07-31 09:54:06.546  1482  1482 D ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@d16b3be className=com.iqoo.secure.ui.antiharassment.InterceptService packageName=com.iqoo.secure intent=null}
+
+07-31 09:54:06.546  1482  1482 D ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@d16b3be className=com.iqoo.secure.ui.antiharassment.InterceptService packageName=com.iqoo.secure intent=null}
+
+07-31 09:54:06.548  1482  1482 V ActivityThread: handleBindService s=com.iqoo.secure.ui.antiharassment.InterceptService@629c1f rebind=false
+
+07-31 09:54:06.551   941   987 V NetworkStats: setKernelCounterSet uid=10058 set=0
+
+07-31 09:54:06.555  1624  1641 I DaemonService: DataUsageService pid = 1482
+
+07-31 09:54:06.558  1482  1482 D ActivityThread: SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@d16b3be intent=Intent { pkg=com.iqoo.secure cmp=com.iqoo.secure/.ui.antiharassment.InterceptService }}
+
+07-31 09:54:06.562 13079 13079 D ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@9dd44ea className=com.android.mms.transaction.SmsReceiverService packageName=com.android.mms intent=null}
+
+07-31 09:54:06.562 13079 13079 D ActivityThread: SVC-Calling onStartCommand: com.android.mms.transaction.SmsReceiverService@531d3db, flags=0, startId=1
+
+07-31 09:54:06.562 13079 13079 D Mms/MMSLog: Message Sent Result Code = 0
+
+07-31 09:54:06.562 13079 13079 D ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@9dd44ea startId=1 args=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) }}
+
+07-31 09:54:06.570 13079 13161 D Mms/MMSLog: Sms handleMessage :{ when=-6ms what=0 arg1=1 obj=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) } target=com.android.mms.transaction.SmsReceiverService$ServiceHandler obj=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) } }
+
+07-31 09:54:06.570 13079 13161 D SmsReceiverService:  com.vivo.telephony.VIVO_SMS_RECEIVED -----------------
+
+07-31 09:54:06.575   941   956 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@d43535e (pid=13079, userId=0) to get content provider sms cpr=ContentProviderRecord{56a054c u0 com.android.providers.telephony/.SmsProvider}
+
+07-31 09:54:06.575   941   956 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{335c711 1907:com.android.phone/1001}
+
+07-31 09:54:06.576 13079 13161 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@553b951, holder.provider:android.content.ContentProviderProxy@cc2c5b6
+
+07-31 09:54:06.582 13079 13161 D SmsReceiverService: cur==========android.content.ContentResolver$CursorWrapperInner@3daaa24
+
+07-31 09:54:06.582 13079 13161 D SmsReceiverService: cur.getCount ========0
+
+07-31 09:54:06.586 13079 13079 D ActivityThread: SVC-Destroying service: com.android.mms.transaction.SmsReceiverService@531d3db
+
+07-31 09:54:06.588  1482  1482 D ActivityThread: SVC-UNBIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@d16b3be intent=Intent { pkg=com.iqoo.secure cmp=com.iqoo.secure/.ui.antiharassment.InterceptService }}
+
+07-31 09:54:06.588  1482  1482 D ActivityThread: SVC-Destroying service: com.iqoo.secure.ui.antiharassment.InterceptService@629c1f
+
+07-31 09:54:06.588  1482  1482 D ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@d16b3be
+
+07-31 09:54:06.589 13079 13079 D ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@9dd44ea
+
+07-31 09:54:06.593  1624  1639 I DaemonService: DataUsageService pid = 1482
+
+07-31 09:54:06.593   941   987 V NetworkStats: setKernelCounterSet uid=10058 set=1
+
+07-31 09:54:06.594  1624  1639 I DaemonService: DataUsageService pid = 1482
+
+07-31 09:54:06.605   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:06.600   839   839 W viarild : type=1400 audit(0.0:2371): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:06.987  2173  2181 I System  : FinalizerDaemon: finalize objects = 1
+
+07-31 09:54:07.008  1997  2004 I System  : FinalizerDaemon: finalize objects = 276
+
+07-31 09:54:07.217   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:07.217   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=36000
+
+07-31 09:54:07.217   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:07.217   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:07.217  2654  2658 D FRR     : buff=0x7f86538240, len=191
+
+07-31 09:54:07.218  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=48, "change@/devices/platform/battery/power_supply/ac"
+
+07-31 09:54:07.218  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:07.218  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:07.218  2654  2658 D FRR     : buff=0x7f86538240, len=194
+
+07-31 09:54:07.218  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=49, "change@/devices/platform/battery/power_supply/usb"
+
+07-31 09:54:07.218  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:07.218  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:07.218  2654  2658 D FRR     : buff=0x7f86538240, len=209
+
+07-31 09:54:07.218  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=54, "change@/devices/platform/battery/power_supply/wireless"
+
+07-31 09:54:07.218  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:07.218  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:07.219   941  1949 D BatteryService: mBatteryVoltage=4314, batteryLevel=50
+
+07-31 09:54:07.219   941  1949 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:07.219   941  1949 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:07.220   941   941 V ActivityManager: Broadcast sticky: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } ordered=false userid=-1 callerApp=null
+
+07-31 09:54:07.221   941  1957 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:07.221   941  1957 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:07.221   941   941 D FeatureService: onReceive action android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.221   941   941 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.222   941  1236 D WifiController: ApStaDisabledState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-31 09:54:07.222   941  1236 D WifiController: DefaultState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-31 09:54:07.222   941  1236 D WifiController: battery changed pluggedType: 2
+
+07-31 09:54:07.222  1340  1340 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.223  1340  1340 I BatteryController: SystemUI|status = 2, mLastStatus = 2, mPluggedIn = true, mLastPluggedIn = true
+
+07-31 09:54:07.223  1340  1340 I BatteryController: SystemUI|mLevel = 97, mLastLevel = 97
+
+07-31 09:54:07.224  1340  1340 D PowerUI : buckets   .....15 .. 10 .. 3
+
+07-31 09:54:07.224  1340  1340 D PowerUI : level          97 --> 97
+
+07-31 09:54:07.224  1340  1340 D PowerUI : status         2 --> 2
+
+07-31 09:54:07.224  1340  1340 D PowerUI : plugType       2 --> 2
+
+07-31 09:54:07.224  1340  1340 D PowerUI : invalidCharger 0 --> 0
+
+07-31 09:54:07.224  1340  1340 D PowerUI : bucket         1 --> 1
+
+07-31 09:54:07.224  1340  1340 D PowerUI : plugged        true --> true
+
+07-31 09:54:07.224  1504  1504 I WarningMessage: receiver: action isandroid.intent.action.BATTERY_CHANGED mBatteryPowerConnetDialog=true mShowChargerOverVoltageDialog=true
+
+07-31 09:54:07.224  1504  1504 D DeviceListener: ++onReceive++:android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.225   941   970 V ActivityManager: Broadcast: Intent { act=com.vivo.dismiss.lowpower flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{5bf1545 1340:com.android.systemui/u0a17}
+
+07-31 09:54:07.225  1504  1504 D DeviceListener: onReceiveandroid.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.225  1504  1504 I UsbDeviceManagerService: mUsbReceiver action:android.intent.action.BATTERY_CHANGED mConnected:false mLastConnected:false
+
+07-31 09:54:07.226  1978  1978 D SwitcherUpdateMonitor: receive broadcast, action = android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:07.227  1340  1340 D KeyguardUpdateMonitor: handleBatteryUpdate
+
+07-31 09:54:07.227  1340  1340 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mQuickChargeHealth = 2, batteryHealth = 2
+
+07-31 09:54:07.227  1340  1340 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mCurrentEngineState = 0, engineState = -2
+
+07-31 09:54:07.228  2654  2658 D FRR     : buff=0x7f86538240, len=965
+
+07-31 09:54:07.228  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=53, "change@/devices/platform/battery/power_supply/battery"
+
+07-31 09:54:07.228  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:07.228  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:07.234   941  1380 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:07.234   941  1380 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:07.237   941   957 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:07.237   941   957 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:07.591  3079  3086 I System  : FinalizerDaemon: finalize objects = 9
+
+07-31 09:54:07.606   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:07.600   839   839 W viarild : type=1400 audit(0.0:2372): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:08.024   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 773
+
+07-31 09:54:08.024   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:08.606   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:08.600   839   839 W viarild : type=1400 audit(0.0:2373): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:09.056   941  1823 D AES     : AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+
+07-31 09:54:09.056   941  1823 W Watchdog: **Get SF Time **1
+
+07-31 09:54:09.057   941  1823 D AES     : AEEIOCTL_RT_MON_Kick IOCTL,cmd= -2147192822, lParam=300. 
+
+07-31 09:54:09.057   941  1823 W Watchdog: SWT Watchdog before synchronized:2330595
+
+07-31 09:54:09.057   941  1823 W Watchdog: SWT Watchdog after synchronized:2330595
+
+07-31 09:54:09.326   941   948 I System  : FinalizerDaemon: finalize objects = 920
+
+07-31 09:54:09.600   839   839 W viarild : type=1400 audit(0.0:2374): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:09.606   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:10.052   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:10.052   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=35000
+
+07-31 09:54:10.052   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:10.052   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:10.149   435   435 I thermal_repeater: select timeout
+
+07-31 09:54:10.600   839   839 W viarild : type=1400 audit(0.0:2375): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:10.607   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:11.002  4997  5004 I System  : FinalizerDaemon: finalize objects = 67
+
+07-31 09:54:11.024   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 774
+
+07-31 09:54:11.025   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:11.266 13051 13057 I System  : FinalizerDaemon: finalize objects = 49
+
+07-31 09:54:11.600   839   839 W viarild : type=1400 audit(0.0:2376): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:11.607   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:12.600   839   839 W viarild : type=1400 audit(0.0:2377): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:12.608   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:13.600   839   839 W viarild : type=1400 audit(0.0:2378): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:13.608   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:14.025   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 775
+
+07-31 09:54:14.025   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:14.600   839   839 W viarild : type=1400 audit(0.0:2379): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:14.608   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:15.063   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:15.063   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=35000
+
+07-31 09:54:15.063   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:15.063   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:15.151   435   435 I thermal_repeater: oh, queryMdThermalInfo (0)No such file or directory
+
+07-31 09:54:15.155   435   435 I thermal_repeater: [recvMdThermalInfo] ret=5, strLen=127, ERROR
+
+07-31 09:54:15.609   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:15.600   839   839 W viarild : type=1400 audit(0.0:2380): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:16.600   839   839 W viarild : type=1400 audit(0.0:2381): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:16.609   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:16.695 13079 13087 I System  : FinalizerDaemon: finalize objects = 265
+
+07-31 09:54:17.025   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 776
+
+07-31 09:54:17.026   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:17.221   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:17.221   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=35000
+
+07-31 09:54:17.221   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:17.221   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:17.222  2654  2658 D FRR     : buff=0x7f86538240, len=191
+
+07-31 09:54:17.222  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=48, "change@/devices/platform/battery/power_supply/ac"
+
+07-31 09:54:17.222  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:17.222  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:17.222  2654  2658 D FRR     : buff=0x7f86538240, len=194
+
+07-31 09:54:17.222  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=49, "change@/devices/platform/battery/power_supply/usb"
+
+07-31 09:54:17.222  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:17.222  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:17.223   941  1509 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:17.223   941  1509 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:17.224   941  1509 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:17.224   941  1509 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:17.224  2654  2658 D FRR     : buff=0x7f86538240, len=209
+
+07-31 09:54:17.224  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=54, "change@/devices/platform/battery/power_supply/wireless"
+
+07-31 09:54:17.224  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:17.224  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:17.224   941  1995 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:17.224   941  1995 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:17.230  2654  2658 D FRR     : buff=0x7f86538240, len=965
+
+07-31 09:54:17.230  2654  2658 D FRR     : uevent[0]=0x7f86538240, len=53, "change@/devices/platform/battery/power_supply/battery"
+
+07-31 09:54:17.230  2654  2658 D FRR     : voteFps(60, 0)
+
+07-31 09:54:17.230  2654  2658 D FRR     : ThermalListener loop:
+
+07-31 09:54:17.231   941  1955 D BatteryService: mBatteryVoltage=4310, batteryLevel=50
+
+07-31 09:54:17.231   941  1955 V BatteryService: VNOILBS mScreenOn=true level=97 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=2
+
+07-31 09:54:17.231   941  1955 V BatteryService: VNOILBS, turn off battery light.
+
+07-31 09:54:17.232   941   941 V ActivityManager: Broadcast sticky: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } ordered=false userid=-1 callerApp=null
+
+07-31 09:54:17.234  1504  1504 I WarningMessage: receiver: action isandroid.intent.action.BATTERY_CHANGED mBatteryPowerConnetDialog=true mShowChargerOverVoltageDialog=true
+
+07-31 09:54:17.234  1504  1504 D DeviceListener: ++onReceive++:android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.234  1504  1504 D DeviceListener: onReceiveandroid.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.234  1504  1504 I UsbDeviceManagerService: mUsbReceiver action:android.intent.action.BATTERY_CHANGED mConnected:false mLastConnected:false
+
+07-31 09:54:17.235  1340  1340 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.235  1340  1340 I BatteryController: SystemUI|status = 2, mLastStatus = 2, mPluggedIn = true, mLastPluggedIn = true
+
+07-31 09:54:17.236  1340  1340 I BatteryController: SystemUI|mLevel = 97, mLastLevel = 97
+
+07-31 09:54:17.236  1340  1340 D KeyguardUpdateMonitor: handleBatteryUpdate
+
+07-31 09:54:17.237  1978  1978 D SwitcherUpdateMonitor: receive broadcast, action = android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.237   941   941 D FeatureService: onReceive action android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.237   941   941 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+
+07-31 09:54:17.237   941  1236 D WifiController: ApStaDisabledState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-31 09:54:17.238   941  1236 D WifiController: DefaultState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-31 09:54:17.238   941  1236 D WifiController: battery changed pluggedType: 2
+
+07-31 09:54:17.238  1340  1340 D PowerUI : buckets   .....15 .. 10 .. 3
+
+07-31 09:54:17.238  1340  1340 D PowerUI : level          97 --> 97
+
+07-31 09:54:17.238  1340  1340 D PowerUI : status         2 --> 2
+
+07-31 09:54:17.238  1340  1340 D PowerUI : plugType       2 --> 2
+
+07-31 09:54:17.238  1340  1340 D PowerUI : invalidCharger 0 --> 0
+
+07-31 09:54:17.238  1340  1340 D PowerUI : bucket         1 --> 1
+
+07-31 09:54:17.238  1340  1340 D PowerUI : plugged        true --> true
+
+07-31 09:54:17.239   941  1996 V ActivityManager: Broadcast: Intent { act=com.vivo.dismiss.lowpower flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{5bf1545 1340:com.android.systemui/u0a17}
+
+07-31 09:54:17.240  1340  1340 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mQuickChargeHealth = 2, batteryHealth = 2
+
+07-31 09:54:17.240  1340  1340 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mCurrentEngineState = 0, engineState = -2
+
+07-31 09:54:17.600   839   839 W viarild : type=1400 audit(0.0:2382): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:17.610   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:18.600   839   839 W viarild : type=1400 audit(0.0:2383): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:18.610   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:19.600   839   839 W viarild : type=1400 audit(0.0:2384): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:19.611   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:20.026   423   797 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 777
+
+07-31 09:54:20.026   423   797 D VT      : [SRV] isIMCBrun : False
+
+07-31 09:54:20.072   433   433 I thermal_src: wake up function 3
+
+07-31 09:54:20.072   433   433 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=35000
+
+07-31 09:54:20.072   433   433 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-31 09:54:20.072   433   433 I thermal_src: waiting NOTIFY from kernel...
+
+07-31 09:54:20.160   435   435 I thermal_repeater: select timeout
+
+07-31 09:54:20.600   839   839 W viarild : type=1400 audit(0.0:2385): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:20.611   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:21.451 13051 13057 I System  : FinalizerDaemon: finalize objects = 26
+
+07-31 09:54:21.610   839   839 W viarild : type=1400 audit(0.0:2386): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-31 09:54:21.611   817   839 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-31 09:54:22.610   839   839 W viarild : type=1400 audit(0.0:2387): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=10393 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0

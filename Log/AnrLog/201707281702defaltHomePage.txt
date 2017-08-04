@@ -1,0 +1,1441 @@
+--------- beginning of main
+
+07-28 17:02:29.977  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:29.977  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:30.141  2461  9841 D OpenGLRenderer: ~CanvasContext() 0xebe8c000
+
+--------- beginning of system
+
+07-28 17:02:30.264 17662 17662 W FtTelephonyAdapterImpl: getActiveSubInfoList.subInfo is empty
+
+07-28 17:02:30.264 17662 17662 D Mms/CacheDelay: ---->>>start cache------------
+
+07-28 17:02:30.268 17662 17662 I Mms/PrivacyMessageProcess: PrivacyMessageProcess init
+
+07-28 17:02:30.268 17662 17734 I ContactArray: ContactsCache init begin:1501232550268
+
+07-28 17:02:30.270   965  1361 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@282582a (pid=17662, userId=0) to get content provider com.android.contacts cpr=ContentProviderRecord{f1bd022 u0 com.android.providers.contacts/.ContactsProvider2}
+
+07-28 17:02:30.270   965  1361 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{9bb3022 3745:android.process.acore/u0a4}
+
+07-28 17:02:30.273 17662 17734 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@ce125db, holder.provider:android.content.ContentProviderProxy@7c80878
+
+07-28 17:02:30.274 17662 17662 D Mms/CacheDelay: ---->>>cache finish------------
+
+07-28 17:02:30.275 17662 17735 I PrivacyContactsArray: PrivacyContactsCache init begin:1501232550275
+
+07-28 17:02:30.277  3745  3784 I ContactsProvider: query: uri=content://com.android.contacts/data/phones?encrypt=%20%3C%202 , projection=[_id, display_name, data1] , selection=[null] , args=null , order=[_id LIMIT 2000 OFFSET 0] CPID=17662 , User=0 , callingPackage=[com.android.mms]
+
+07-28 17:02:30.278  3745  3756 I ContactsProvider: query: uri=content://com.android.contacts/data?encrypt=%3E0 , projection=[contact_id, raw_contact_id, display_name, data1] , selection=[mimetype_id = 5] , args=null , order=[null] CPID=17662 , User=0 , callingPackage=[com.android.mms]
+
+07-28 17:02:30.282 17662 17735 D PrivacyContactsArray: -----count = 0
+
+07-28 17:02:30.284   965  2012 V ActivityManager: Broadcast: Intent { act=com.android.mms.ACTION_NAME_LOAD_FINISHED flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{76b49b3 17662:com.android.mms/u0a11}
+
+07-28 17:02:30.285 17662 17735 I PrivacyContactsArray: PrivacyContactsCache init complete:1501232550284
+
+07-28 17:02:30.285 17662 17734 I ContactArray: ContactsCache init complete:1501232550284
+
+07-28 17:02:30.285 17662 17735 I Mms/PrivacyMessageProcess: PrivacyContactsCache run done....
+
+07-28 17:02:30.286 17662 17734 E PatternBuilder:  Incorrectly nested parentheses in regexp pattern
+
+07-28 17:02:30.287 17662 17734 W System.err: java.util.regex.PatternSyntaxException: Incorrectly nested parentheses in regexp pattern near index 1:
+
+07-28 17:02:30.287 17662 17734 W System.err: )
+
+07-28 17:02:30.287 17662 17734 W System.err:  ^
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at java.util.regex.Pattern.compileImpl(Native Method)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at java.util.regex.Pattern.compile(Pattern.java:411)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at java.util.regex.Pattern.<init>(Pattern.java:394)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at java.util.regex.Pattern.compile(Pattern.java:381)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at com.android.mms.data.contactcache.PatternBuilder.buildNameMTPattern(PatternBuilder.java:69)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at com.android.mms.data.contactcache.PatternBuilder.build(PatternBuilder.java:24)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at com.android.mms.data.contactcache.ContactsArray.init(ContactsArray.java:67)
+
+07-28 17:02:30.287 17662 17734 W System.err: 	at com.android.mms.data.contactcache.ContactsCacheProcess$InitThread.run(ContactsCacheProcess.java:71)
+
+07-28 17:02:30.288 17662 17734 I ContactsCacheProcess: ContactsCache run done....
+
+07-28 17:02:30.288   965  1954 V ActivityManager: Broadcast: Intent { act=com.android.mms.privacymsg.cacheover flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{76b49b3 17662:com.android.mms/u0a11}
+
+07-28 17:02:30.495   965   979 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@7c5ccf6 (pid=17662, userId=0) to get content provider sms cpr=ContentProviderRecord{7af0cc7 u0 com.android.providers.telephony/.SmsProvider}
+
+07-28 17:02:30.495   965   979 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{91df9ca 1710:com.android.phone/1001}
+
+07-28 17:02:30.496 17662 17662 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@5efbfb6, holder.provider:android.content.ContentProviderProxy@4244b7
+
+07-28 17:02:30.526  4364  4371 I System  : FinalizerDaemon: finalize objects = 55
+
+07-28 17:02:30.537   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:30.521   824   824 W viarild : type=1400 audit(0.0:123320): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:30.580   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39047
+
+07-28 17:02:30.580   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:30.999   441   441 I thermal_repeater: oh, queryMdThermalInfo (0)No such file or directory
+
+07-28 17:02:31.000   441   441 I thermal_repeater: [recvMdThermalInfo] ret=5, strLen=127, ERROR
+
+07-28 17:02:31.092   965  1253 D PerfServiceManager: [PerfService] MESSAGE_TIMEOUT:106 
+
+07-28 17:02:31.107   965  1253 I libPerfService: 6: set: -1, -1, 
+
+07-28 17:02:31.107   965  1253 I libPerfService: 6: set freq: -1, -1, 
+
+07-28 17:02:31.345   965  1212 V AlarmAlign: mAlarmBatches = 47, triggerList = 1
+
+07-28 17:02:31.346   965  1212 V AlarmAlign: checkSet SCREEN_ON, type = 3, when = 905699640
+
+07-28 17:02:31.346   965  1212 V AlarmAlign: setLocked to kernel, type = 3, when = 905699640, curTime = 905683260
+
+07-28 17:02:31.346   965  1212 V AlarmAlign: triggerList has deliver.1
+
+07-28 17:02:31.346   965  1212 D DataShapingService: Alarm manager openLteDataUpLinkGate: false
+
+07-28 17:02:31.346   965  1212 V AlarmManager: openLteGateSuccess = false
+
+07-28 17:02:31.346   965  1212 V ActivityManager: Broadcast: Intent { act=com.vivo.push.AlarmAciton.Retry flg=0x114 pkg=com.vivo.abe (has extras) } ordered=true userid=0 callerApp=null
+
+07-28 17:02:31.352   965  1212 V AlarmAlign: triggerAlarm v at 905683259, size=1, hasWakeup=false, mWake_Set=true, mNextWakeup=905795448, mNextNonWakeup=905699640, mBatch.end=907222238, why=8
+
+07-28 17:02:31.357   965  1939 D AppOps  : startOperation: allowing code 40 uid 1000 package com.vivo.abe
+
+07-28 17:02:31.376  3025  3025 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1228 android.content.ContextWrapper.startService:581 com.vivo.push.sdk.service.LinkProxyActivity.a:104 com.vivo.push.a.a.a:50 com.vivo.push.a.a.a:24 
+
+07-28 17:02:31.400   965  1947 V AlarmAlign: remove pkg = com.vivo.abe, action = com.vivo.push.AlarmAciton.Retry
+
+07-28 17:02:31.402  3025  3025 D ActivityThread: BDC-Calling finishReceiver: IIntentReceiver=b5373e6
+
+07-28 17:02:31.403  3025  3025 D ActivityThread: SVC-Calling onStartCommand: com.vivo.push.sdk.service.PushService@f3a510e, flags=0, startId=1065
+
+07-28 17:02:31.403   965   965 D AlarmManager: onSendFinished begin
+
+07-28 17:02:31.404  3025  3025 D VivoPush.PushService: 151228-PushService -- onStartCommand
+
+07-28 17:02:31.406  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, start task = oDefaultCommand}
+
+07-28 17:02:31.406  3025 11119 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1228 android.content.ContextWrapper.startService:581 com.vivo.push.sdk.service.LinkProxyActivity.a:104 com.vivo.push.a.a.a:50 com.vivo.push.a.a.a:24 
+
+07-28 17:02:31.408  3025  3025 D ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@dff7b09 startId=1065 args=Intent { act=com.vivo.pushservice.action.METHOD pkg=com.vivo.abe cmp=com.vivo.abe/com.vivo.push.sdk.service.PushService (has extras) }}
+
+07-28 17:02:31.408  3025  3025 D ActivityThread: SVC-Calling onStartCommand: com.vivo.push.sdk.service.PushService@f3a510e, flags=0, startId=1066
+
+07-28 17:02:31.408  3025  3025 D VivoPush.PushService: 151228-PushService -- onStartCommand
+
+07-28 17:02:31.408  3025 11119 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1228 android.content.ContextWrapper.startService:581 com.vivo.push.sdk.service.LinkProxyActivity.a:104 com.vivo.push.a.a.a:50 com.vivo.push.a.a.a:24 
+
+07-28 17:02:31.411  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, end task = oDefaultCommand}
+
+07-28 17:02:31.411  3025  3025 D ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@dff7b09 startId=1066 args=Intent { act=com.vivo.pushservice.action.METHOD pkg=com.vivo.abe cmp=com.vivo.abe/com.vivo.push.sdk.service.PushService (has extras) }}
+
+07-28 17:02:31.411  3025  3025 D ActivityThread: SVC-Calling onStartCommand: com.vivo.push.sdk.service.PushService@f3a510e, flags=0, startId=1067
+
+07-28 17:02:31.411  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, start task = wConnectCommand}
+
+07-28 17:02:31.411  3025  3025 D VivoPush.PushService: 151228-PushService -- onStartCommand
+
+07-28 17:02:31.413  3025  3025 D ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@dff7b09 startId=1067 args=Intent { act=com.vivo.pushservice.action.METHOD pkg=com.vivo.abe cmp=com.vivo.abe/com.vivo.push.sdk.service.PushService (has extras) }}
+
+07-28 17:02:31.416   965  2010 V AlarmAlign: remove pkg = com.vivo.abe, action = com.vivo.push.AlarmAciton.Connect
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.416   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.417   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.418   965  2010 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.423   965  1362 I ExtraAlarmManager: type: 1 Type: 1
+
+07-28 17:02:31.423   965  1362 V AlarmAlign: addAlarm pkg = com.vivo.abe, action = com.vivo.push.AlarmAciton.Connect, whenElapsed = 905773949
+
+07-28 17:02:31.423   965  1362 D AlarmManager:  whichBatch = -1
+
+07-28 17:02:31.424  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, end task = wConnectCommand}
+
+07-28 17:02:31.424  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, start task = mConnectConfigUpdateCommand}
+
+07-28 17:02:31.425   965   981 D ConnectivityService: getActiveNetworkInfo networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "beta-test", roaming: false, failover: false, isAvailable: true]
+
+07-28 17:02:31.427  3025 11119 D VivoPush.PushServiceThread: 151228-PushServiceThread-handleMessage, end task = mConnectConfigUpdateCommand}
+
+07-28 17:02:31.538   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:31.531   824   824 W viarild : type=1400 audit(0.0:123321): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:31.728   965  1227 V ActivityManager: Broadcast: Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:31.728   965   965 I WifiNotificationController: checkAndSetNotification, state:CONNECTED
+
+07-28 17:02:31.730  1997  1997 D SwitcherUpdateMonitor: receive broadcast, action = android.net.wifi.SCAN_RESULTS
+
+07-28 17:02:31.730  1997  1997 D WifiReceiver: UpSlide|action = android.net.wifi.SCAN_RESULTS
+
+07-28 17:02:31.730  1997  1997 D WifiReceiver: UpSlide|action = android.net.wifi.SCAN_RESULTS
+
+07-28 17:02:31.741  1997  1997 D WifiReceiver: UpSlide|handleScanResults >>> receiver scan result state:3, isUserTurnOn:false, mIsEntered = false
+
+07-28 17:02:31.759  1897  1905 I System  : FinalizerDaemon: finalize objects = 107
+
+07-28 17:02:32.531   824   824 W viarild : type=1400 audit(0.0:123322): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:32.538   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:32.538   798   824 W MFI-Conn:  (     mfia_task_bootstrap,  593) mfia_task_bootstrap(13): [ASSERT] more than 60 retries to connect to mal-mfi!!
+
+07-28 17:02:32.683   965  1227 D WifiStateMachine:  ConnectedState (when=-2ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117224625/905684596 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-67 f=2412 sc=80 link=65 tx=14.9, 0.0, 0.0  rx=13.3 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:-2006000917] gl hn rssi=-62 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:32.684   965  1227 D WifiStateMachine:  L2ConnectedState (when=-3ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117224626/905684598 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-67 f=2412 sc=80 link=65 tx=14.9, 0.0, 0.0  rx=13.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-2006000916] gl hn rssi=-62 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:32.684   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:32.689   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-67, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:32.689   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:32.691   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:32.693   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:32.697   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -67, 2
+
+07-28 17:02:32.697  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:32.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:32.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:32.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:32.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:32.974   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:32.979   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:32.979   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -67, snr = 9999 
+
+07-28 17:02:32.980   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <1978, 0%>, mobile <0, 0%>
+
+07-28 17:02:32.980   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:32.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:32.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:32.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:33.333  1484  3817 I System.out: [socket][2620:50502] exception
+
+07-28 17:02:33.335   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:33.337  1484  3817 I System.out: [CDS]rx timeout:8000
+
+07-28 17:02:33.337  1484  3817 I System.out: [socket][2620] connection clients3.google.com/74.125.204.113:80;LocalPort=41603(8000)
+
+07-28 17:02:33.337  1484  3817 I System.out: [CDS]connect[clients3.google.com/74.125.204.113:80] tm:8
+
+07-28 17:02:33.337  1484  3817 D Posix   : [Posix_connect Debug]Process com.vivo.daemonService :80 
+
+07-28 17:02:33.338   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:33.539   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:33.531   824   824 W viarild : type=1400 audit(0.0:123323): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:33.581   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39048
+
+07-28 17:02:33.582   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:34.037   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:34.037   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=38000
+
+07-28 17:02:34.037   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:34.038   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:34.266 17662 17662 V MMSLog  : ----------onReceiveWithPrivilege----------
+
+07-28 17:02:34.271   965  1957 D AppOps  : startOperation: allowing code 40 uid 10011 package com.android.mms
+
+07-28 17:02:34.282 17662 17662 D ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@9b13424 className=com.android.mms.transaction.SmsReceiverService packageName=com.android.mms intent=null}
+
+07-28 17:02:34.302  1464  1464 D ActivityThread: SVC-Creating service: CreateServiceData{token=android.os.BinderProxy@8432c0 className=com.iqoo.secure.ui.antiharassment.InterceptService packageName=com.iqoo.secure intent=null}
+
+07-28 17:02:34.303  1464  1464 D ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@8432c0 className=com.iqoo.secure.ui.antiharassment.InterceptService packageName=com.iqoo.secure intent=null}
+
+07-28 17:02:34.306  1464  1464 V ActivityThread: handleBindService s=com.iqoo.secure.ui.antiharassment.InterceptService@404bf9 rebind=false
+
+07-28 17:02:34.313  1464  1464 D ActivityThread: SVC-BIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@8432c0 intent=Intent { pkg=com.iqoo.secure cmp=com.iqoo.secure/.ui.antiharassment.InterceptService }}
+
+07-28 17:02:34.313   965  1037 V NetworkStats: setKernelCounterSet uid=10058 set=0
+
+07-28 17:02:34.314  1606  1617 I DaemonService: DataUsageService pid = 1464
+
+07-28 17:02:34.317 17662 17662 D ActivityThread: SVC-CREATE_SERVICE handled : 0 / CreateServiceData{token=android.os.BinderProxy@9b13424 className=com.android.mms.transaction.SmsReceiverService packageName=com.android.mms intent=null}
+
+07-28 17:02:34.317 17662 17662 D ActivityThread: SVC-Calling onStartCommand: com.android.mms.transaction.SmsReceiverService@62e5b8d, flags=0, startId=1
+
+07-28 17:02:34.318 17662 17662 D Mms/MMSLog: Message Sent Result Code = 0
+
+07-28 17:02:34.319 17662 17662 D ActivityThread: SVC-SERVICE_ARGS handled : 0 / ServiceArgsData{token=android.os.BinderProxy@9b13424 startId=1 args=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) }}
+
+07-28 17:02:34.323 17662 17748 D Mms/MMSLog: Sms handleMessage :{ when=-1ms what=0 arg1=1 obj=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) } target=com.android.mms.transaction.SmsReceiverService$ServiceHandler obj=Intent { act=com.vivo.telephony.VIVO_SMS_RECEIVED cmp=com.android.mms/.transaction.SmsReceiverService (has extras) } }
+
+07-28 17:02:34.325 17662 17748 D SmsReceiverService:  com.vivo.telephony.VIVO_SMS_RECEIVED -----------------
+
+07-28 17:02:34.331   965  1939 D ActivityManager: getContentProviderImpl: from caller=android.app.ApplicationThreadProxy@2279d93 (pid=17662, userId=0) to get content provider sms cpr=ContentProviderRecord{7af0cc7 u0 com.android.providers.telephony/.SmsProvider}
+
+07-28 17:02:34.331   965  1939 D ActivityManager: getContentProviderImpl: updateLruProcessLocked cpr.proc=ProcessRecord{91df9ca 1710:com.android.phone/1001}
+
+07-28 17:02:34.333 17662 17748 D ActivityThread: holder:android.app.IActivityManager$ContentProviderHolder@92c7553, holder.provider:android.content.ContentProviderProxy@4df6e90
+
+07-28 17:02:34.340 17662 17748 D SmsReceiverService: cur==========android.content.ContentResolver$CursorWrapperInner@3230f8e
+
+07-28 17:02:34.340 17662 17748 D SmsReceiverService: cur.getCount ========0
+
+07-28 17:02:34.346 17662 17662 D ActivityThread: SVC-Destroying service: com.android.mms.transaction.SmsReceiverService@62e5b8d
+
+07-28 17:02:34.348  1464  1464 D ActivityThread: SVC-UNBIND_SERVICE handled : 0 / BindServiceData{token=android.os.BinderProxy@8432c0 intent=Intent { pkg=com.iqoo.secure cmp=com.iqoo.secure/.ui.antiharassment.InterceptService }}
+
+07-28 17:02:34.348 17662 17662 D ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@9b13424
+
+07-28 17:02:34.348  1464  1464 D ActivityThread: SVC-Destroying service: com.iqoo.secure.ui.antiharassment.InterceptService@404bf9
+
+07-28 17:02:34.349  1464  1464 D ActivityThread: SVC-STOP_SERVICE handled : 0 / android.os.BinderProxy@8432c0
+
+07-28 17:02:34.352   965  1037 V NetworkStats: setKernelCounterSet uid=10058 set=1
+
+07-28 17:02:34.354  1606  1619 I DaemonService: DataUsageService pid = 1464
+
+07-28 17:02:34.356  1606  1619 I DaemonService: DataUsageService pid = 1464
+
+07-28 17:02:34.539   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:34.531   824   824 W viarild : type=1400 audit(0.0:123324): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:34.720  2151  2160 I System  : FinalizerDaemon: finalize objects = 1
+
+07-28 17:02:35.310  3745  3752 I System  : FinalizerDaemon: finalize objects = 9
+
+07-28 17:02:35.538  4364  4364 V VivoWeatherProvider-WeatherHandleService: handleMessage msg.what= 1005
+
+07-28 17:02:35.540   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:35.531   824   824 W viarild : type=1400 audit(0.0:123325): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:35.695   965  1227 D WifiStateMachine:  ConnectedState (when=-3ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117227637/905687609 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-67 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.6 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:-2005997905] gl hn rssi=-62 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:35.696   965  1227 D WifiStateMachine:  L2ConnectedState (when=-4ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117227638/905687610 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-67 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.6 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-2005997904] gl hn rssi=-62 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:35.696   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:35.700   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-68, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:35.700   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:35.702   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:35.704   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:35.706   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -68, 2
+
+07-28 17:02:35.707  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:35.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:35.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:35.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:35.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:35.974   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:35.978   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:35.978   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -68, snr = 9999 
+
+07-28 17:02:35.978   312   682 I MAL-Daemon:  (  ru_wsl_wifi_status_ind,  752) [RDS-I][RDS][RU][ru_wsl_wifi_status_ind] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:35.978   312   682 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 604 to 602 with ret(0)
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <2052, 0%>, mobile <0, 0%>
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 604 
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (  rds_ru_wifi_status_ind, 1379) [RDS-I][RU][EVENT_RU_WS_WIFI_STATUS_IND] fgwifi_en:1(no use) i4wifirssi:0xffffffbc i4wifisnr:0x270f
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 615 to 1236 with ret(0)
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:35.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <6>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (    rds_op_check_feature,  324) [RDS-I][RDS][OP][rds_op_check_feature] operator id(0) check feature<0>, curr_opmsk is <1>, sys_opmsk is <0x0001, 1>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 0 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 1 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 2 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5215) [RDS-I][RU][rds_ru_rpl_gen][RDS] Current policy: fgimsolte_en<0>, fgwfc_en<0>, erdspolicy<3>, 
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5218) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4wifirssih<-75>, i4wifirssil<-85>, i4wifirssih_ho<-78>, i4wifirssil_ho<-88>, i4wifisnrh<10>, i4wifisnrl<6>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5221) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4ltersrph<-106>, i4ltersrpm<-111>, i4ltersrpl<-116>, i4ltersrqh<5>, i4ltersrqm<3>, i4ltersrql<1>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5224) [RDS-I][RU][rds_ru_rpl_gen][RDS] current rds ru status: i4wifirssi<-68>, i4wifisnr<9999>, i4ltersrp<-141>, i4ltersrq<0>, u4active_ran<1> 
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5227) [RDS-I][RU][rds_ru_rpl_gen][RDS] current wifi backhaul : rtp_plr<0>, rtp_jitter<0>, ping_ind<0>
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5230) [RDS-I][RU][rds_ru_rpl_gen][RDS] Call stat : IR92<0>, IR94<0> 
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5236) [RDS-I][RU][RDS IMS/MMS][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5241) [RDS-I][RU][RDS IMS/MMS WIFI][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5246) [RDS-I][RU][RDS IMS/MMS CELL][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:35.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5250) [RDS-I][RU][RDS EMG][rds_ru_rpl_gen] Ori:(254,254) New:(254,254)
+
+07-28 17:02:35.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:35.981  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 615 incoming
+
+07-28 17:02:35.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:35.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:35.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 615 
+
+07-28 17:02:35.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  388) [RDS][IF][rds_urc_hdl] data_base update: i4wifirssi(-68) 
+
+07-28 17:02:36.006   441   441 I thermal_repeater: select timeout
+
+07-28 17:02:36.050   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:36.050   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=38000
+
+07-28 17:02:36.050   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:36.050   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:36.053  2678  2683 D FRR     : buff=0x7fb368b240, len=192
+
+07-28 17:02:36.053  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=48, "change@/devices/platform/battery/power_supply/ac"
+
+07-28 17:02:36.053  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:36.053  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:36.054  2678  2683 D FRR     : buff=0x7fb368b240, len=195
+
+07-28 17:02:36.054  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=49, "change@/devices/platform/battery/power_supply/usb"
+
+07-28 17:02:36.054  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:36.054  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:36.054  2678  2683 D FRR     : buff=0x7fb368b240, len=210
+
+07-28 17:02:36.054  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=54, "change@/devices/platform/battery/power_supply/wireless"
+
+07-28 17:02:36.054  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:36.054  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:36.055   965  1361 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:36.055   965  1361 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:36.055   965  1361 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:36.055   965  1361 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:36.056   965  1361 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:36.056   965  1361 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:36.061  2678  2683 D FRR     : buff=0x7fb368b240, len=961
+
+07-28 17:02:36.061  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=53, "change@/devices/platform/battery/power_supply/battery"
+
+07-28 17:02:36.061  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:36.061  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:36.066   965  1954 D BatteryService: mBatteryVoltage=4354, batteryLevel=50
+
+07-28 17:02:36.066   965  1954 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:36.066   965  1954 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:36.067   965   965 V ActivityManager: Broadcast sticky: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } ordered=false userid=-1 callerApp=null
+
+07-28 17:02:36.071  1484  1484 I WarningMessage: receiver: action isandroid.intent.action.BATTERY_CHANGED mBatteryPowerConnetDialog=true mShowChargerOverVoltageDialog=true
+
+07-28 17:02:36.071  1484  1484 D DeviceListener: ++onReceive++:android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.071  1484  1484 D DeviceListener: onReceiveandroid.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.071  1484  1484 I UsbDeviceManagerService: mUsbReceiver action:android.intent.action.BATTERY_CHANGED mConnected:false mLastConnected:false
+
+07-28 17:02:36.071  1997  1997 D SwitcherUpdateMonitor: receive broadcast, action = android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.072  1322  1322 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.072  1322  1322 I BatteryController: SystemUI|status = 5, mLastStatus = 5, mPluggedIn = true, mLastPluggedIn = true
+
+07-28 17:02:36.073  1322  1322 I BatteryController: SystemUI|mLevel = 100, mLastLevel = 100
+
+07-28 17:02:36.073  1322  1322 D PowerUI : buckets   .....15 .. 10 .. 3
+
+07-28 17:02:36.073  1322  1322 D PowerUI : level          100 --> 100
+
+07-28 17:02:36.073  1322  1322 D PowerUI : status         5 --> 5
+
+07-28 17:02:36.073  1322  1322 D PowerUI : plugType       2 --> 2
+
+07-28 17:02:36.073  1322  1322 D PowerUI : invalidCharger 0 --> 0
+
+07-28 17:02:36.073  1322  1322 D PowerUI : bucket         1 --> 1
+
+07-28 17:02:36.073  1322  1322 D PowerUI : plugged        true --> true
+
+07-28 17:02:36.074   965   965 D FeatureService: onReceive action android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.074   965   965 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.074   965  1229 D WifiController: DeviceActiveState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:36.074   965  1229 D WifiController: StaEnabledState{ when=-1ms what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:36.074   965  1229 D WifiController: DefaultState{ when=-1ms what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:36.074   965  1229 D WifiController: battery changed pluggedType: 2
+
+07-28 17:02:36.082   965   993 V ActivityManager: Broadcast: Intent { act=com.vivo.dismiss.lowpower flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{a9d1b8a 1322:com.android.systemui/u0a17}
+
+07-28 17:02:36.084  1322  1322 D KeyguardUpdateMonitor: handleBatteryUpdate
+
+07-28 17:02:36.084  1322  1322 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mQuickChargeHealth = 2, batteryHealth = 2
+
+07-28 17:02:36.084  1322  1322 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mCurrentEngineState = 0, engineState = -2
+
+07-28 17:02:36.094  7934  7934 D MusicService: ========action = android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:36.540   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:36.531   824   824 W viarild : type=1400 audit(0.0:123326): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:36.582   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39049
+
+07-28 17:02:36.582   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:37.541   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:37.531   824   824 W viarild : type=1400 audit(0.0:123327): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:38.542   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:38.531   824   824 W viarild : type=1400 audit(0.0:123328): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:38.703   965  1227 D WifiStateMachine:  ConnectedState (when=-1ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117230645/905690617 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-68 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.3 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:-2005994897] gl hn rssi=-63 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:38.704   965  1227 D WifiStateMachine:  L2ConnectedState (when=-2ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117230646/905690618 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-68 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-2005994896] gl hn rssi=-63 ag=0 hr ticks 5,266,806 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:38.704   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:38.708   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-71, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:38.710   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:38.711   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:38.713   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:38.716   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -71, 2
+
+07-28 17:02:38.717  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:38.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:38.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:38.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:38.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:38.975   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:38.980   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:38.980   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -71, snr = 9999 
+
+07-28 17:02:38.980   312   682 I MAL-Daemon:  (  ru_wsl_wifi_status_ind,  752) [RDS-I][RDS][RU][ru_wsl_wifi_status_ind] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:38.980   312   682 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:38.980   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 604 to 602 with ret(0)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <1842, 0%>, mobile <0, 0%>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 604 
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (  rds_ru_wifi_status_ind, 1379) [RDS-I][RU][EVENT_RU_WS_WIFI_STATUS_IND] fgwifi_en:1(no use) i4wifirssi:0xffffffb9 i4wifisnr:0x270f
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 615 to 1236 with ret(0)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <6>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (    rds_op_check_feature,  324) [RDS-I][RDS][OP][rds_op_check_feature] operator id(0) check feature<0>, curr_opmsk is <1>, sys_opmsk is <0x0001, 1>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 0 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 1 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 2 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5215) [RDS-I][RU][rds_ru_rpl_gen][RDS] Current policy: fgimsolte_en<0>, fgwfc_en<0>, erdspolicy<3>, 
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5218) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4wifirssih<-75>, i4wifirssil<-85>, i4wifirssih_ho<-78>, i4wifirssil_ho<-88>, i4wifisnrh<10>, i4wifisnrl<6>
+
+07-28 17:02:38.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5221) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4ltersrph<-106>, i4ltersrpm<-111>, i4ltersrpl<-116>, i4ltersrqh<5>, i4ltersrqm<3>, i4ltersrql<1>
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5224) [RDS-I][RU][rds_ru_rpl_gen][RDS] current rds ru status: i4wifirssi<-71>, i4wifisnr<9999>, i4ltersrp<-141>, i4ltersrq<0>, u4active_ran<1> 
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5227) [RDS-I][RU][rds_ru_rpl_gen][RDS] current wifi backhaul : rtp_plr<0>, rtp_jitter<0>, ping_ind<0>
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5230) [RDS-I][RU][rds_ru_rpl_gen][RDS] Call stat : IR92<0>, IR94<0> 
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5236) [RDS-I][RU][RDS IMS/MMS][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5241) [RDS-I][RU][RDS IMS/MMS WIFI][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5246) [RDS-I][RU][RDS IMS/MMS CELL][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:38.982   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5250) [RDS-I][RU][RDS EMG][rds_ru_rpl_gen] Ori:(254,254) New:(254,254)
+
+07-28 17:02:38.982  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:38.982  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 615 incoming
+
+07-28 17:02:38.982  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:38.982  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:38.982  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 615 
+
+07-28 17:02:38.982  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  388) [RDS][IF][rds_urc_hdl] data_base update: i4wifirssi(-71) 
+
+07-28 17:02:39.047   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:39.048   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=37000
+
+07-28 17:02:39.048   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:39.048   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:39.464 17629 17635 I System  : FinalizerDaemon: finalize objects = 50
+
+07-28 17:02:39.543   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:39.541   824   824 W viarild : type=1400 audit(0.0:123329): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:39.582   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39050
+
+07-28 17:02:39.583   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:40.544   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:40.541   824   824 W viarild : type=1400 audit(0.0:123330): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:40.717   965  2365 D DhcpStateMachine: PollingState{ when=-27ms what=196616 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:40.717   965  2365 D DhcpStateMachine: GET_DHCP_RESULTS on wlan0
+
+07-28 17:02:40.718   965  2365 D DhcpUtils: [dhcpv6_get_results] result_prop_name = dhcp.ipv6.wlan0.result; isrenew = 0
+
+07-28 17:02:40.718   965  2365 D DhcpUtils: [dhcpv6_get_results] prop_value = 
+
+07-28 17:02:40.718   965  2365 D NetUtils: dhcpv6_get_results failed : wlan0 ()
+
+07-28 17:02:40.718   965  2365 D DhcpStateMachine: getDhcpv6Results failed, isRenew = false
+
+07-28 17:02:41.007   441   441 I thermal_repeater: oh, queryMdThermalInfo (0)No such file or directory
+
+07-28 17:02:41.011   441   441 I thermal_repeater: [recvMdThermalInfo] ret=5, strLen=127, ERROR
+
+07-28 17:02:41.343  1484  3817 I System.out: [socket][2621:41603] exception
+
+07-28 17:02:41.344   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:41.346  1484  3817 I System.out: [CDS]rx timeout:8000
+
+07-28 17:02:41.347  1484  3817 I System.out: [socket][2621] connection clients3.google.com/74.125.204.139:80;LocalPort=46721(8000)
+
+07-28 17:02:41.347  1484  3817 I System.out: [CDS]connect[clients3.google.com/74.125.204.139:80] tm:8
+
+07-28 17:02:41.347  1484  3817 D Posix   : [Posix_connect Debug]Process com.vivo.daemonService :80 
+
+07-28 17:02:41.347   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:41.544   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:41.531   824   824 W viarild : type=1400 audit(0.0:123331): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:41.717   965  1227 D WifiStateMachine:  ConnectedState (when=-3ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117233658/905693630 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-71 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.7 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:-2005991883] gl hn rssi=-66 ag=0 ticks 5,266,807 ls-=0 [56,56,60,60,60] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:41.717   965  1227 D WifiStateMachine:  L2ConnectedState (when=-4ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117233659/905693631 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-71 f=2412 sc=80 link=65 tx=15.0, 0.0, 0.0  rx=13.7 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:-2005991883] gl hn rssi=-66 ag=0 ticks 5,266,807 ls-=0 [56,56,60,60,60] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:41.717   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:41.730   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-70, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:41.730   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:41.731   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:41.731   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:41.735   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -70, 2
+
+07-28 17:02:41.735  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:41.780   965   972 I System  : FinalizerDaemon: finalize objects = 135
+
+07-28 17:02:41.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:41.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:41.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:41.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:41.974   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:41.978   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:41.978   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -70, snr = 9999 
+
+07-28 17:02:41.978   312   682 I MAL-Daemon:  (  ru_wsl_wifi_status_ind,  752) [RDS-I][RDS][RU][ru_wsl_wifi_status_ind] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:41.978   312   682 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:41.978   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 604 to 602 with ret(0)
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <2150, 0%>, mobile <0, 0%>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 604 
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (  rds_ru_wifi_status_ind, 1379) [RDS-I][RU][EVENT_RU_WS_WIFI_STATUS_IND] fgwifi_en:1(no use) i4wifirssi:0xffffffba i4wifisnr:0x270f
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 615 to 1236 with ret(0)
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <6>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (    rds_op_check_feature,  324) [RDS-I][RDS][OP][rds_op_check_feature] operator id(0) check feature<0>, curr_opmsk is <1>, sys_opmsk is <0x0001, 1>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 0 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 1 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 2 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5215) [RDS-I][RU][rds_ru_rpl_gen][RDS] Current policy: fgimsolte_en<0>, fgwfc_en<0>, erdspolicy<3>, 
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5218) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4wifirssih<-75>, i4wifirssil<-85>, i4wifirssih_ho<-78>, i4wifirssil_ho<-88>, i4wifisnrh<10>, i4wifisnrl<6>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5221) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4ltersrph<-106>, i4ltersrpm<-111>, i4ltersrpl<-116>, i4ltersrqh<5>, i4ltersrqm<3>, i4ltersrql<1>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5224) [RDS-I][RU][rds_ru_rpl_gen][RDS] current rds ru status: i4wifirssi<-70>, i4wifisnr<9999>, i4ltersrp<-141>, i4ltersrq<0>, u4active_ran<1> 
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5227) [RDS-I][RU][rds_ru_rpl_gen][RDS] current wifi backhaul : rtp_plr<0>, rtp_jitter<0>, ping_ind<0>
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5230) [RDS-I][RU][rds_ru_rpl_gen][RDS] Call stat : IR92<0>, IR94<0> 
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5236) [RDS-I][RU][RDS IMS/MMS][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5241) [RDS-I][RU][RDS IMS/MMS WIFI][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5246) [RDS-I][RU][RDS IMS/MMS CELL][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:41.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5250) [RDS-I][RU][RDS EMG][rds_ru_rpl_gen] Ori:(254,254) New:(254,254)
+
+07-28 17:02:41.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:41.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 615 incoming
+
+07-28 17:02:41.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:41.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:41.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 615 
+
+07-28 17:02:41.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  388) [RDS][IF][rds_urc_hdl] data_base update: i4wifirssi(-70) 
+
+07-28 17:02:42.545   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:42.531   824   824 W viarild : type=1400 audit(0.0:123332): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:42.583   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39051
+
+07-28 17:02:42.583   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:43.545   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:43.531   824   824 W viarild : type=1400 audit(0.0:123333): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:43.907 17662 17670 I System  : FinalizerDaemon: finalize objects = 267
+
+07-28 17:02:44.058   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:44.058   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=37000
+
+07-28 17:02:44.058   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:44.058   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:44.546   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:44.531   824   824 W viarild : type=1400 audit(0.0:123334): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:44.732   965  1227 D WifiStateMachine:  ConnectedState (when=-1ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117236674/905696646 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-70 f=2412 sc=80 link=65 tx=15.5, 0.0, 0.0  rx=13.8 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:-2005988868] gl hn rssi=-65 ag=0 hr ticks 5,266,807 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:44.733   965  1227 D WifiStateMachine:  L2ConnectedState (when=-2ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117236675/905696647 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-70 f=2412 sc=80 link=65 tx=15.5, 0.0, 0.0  rx=13.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:-2005988867] gl hn rssi=-65 ag=0 hr ticks 5,266,807 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:44.733   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:44.738   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-69, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:44.740   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:44.750   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:44.752   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:44.758   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -69, 2
+
+07-28 17:02:44.758  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:44.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:44.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:44.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:44.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:44.974   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:44.979   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:44.979   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -69, snr = 9999 
+
+07-28 17:02:44.979   312   682 I MAL-Daemon:  (  ru_wsl_wifi_status_ind,  752) [RDS-I][RDS][RU][ru_wsl_wifi_status_ind] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:44.979   312   682 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:44.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 604 to 602 with ret(0)
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <2052, 0%>, mobile <0, 0%>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 604 
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (  rds_ru_wifi_status_ind, 1379) [RDS-I][RU][EVENT_RU_WS_WIFI_STATUS_IND] fgwifi_en:1(no use) i4wifirssi:0xffffffbb i4wifisnr:0x270f
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 615 to 1236 with ret(0)
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <6>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (    rds_op_check_feature,  324) [RDS-I][RDS][OP][rds_op_check_feature] operator id(0) check feature<0>, curr_opmsk is <1>, sys_opmsk is <0x0001, 1>
+
+07-28 17:02:44.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 0 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 1 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 2 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5215) [RDS-I][RU][rds_ru_rpl_gen][RDS] Current policy: fgimsolte_en<0>, fgwfc_en<0>, erdspolicy<3>, 
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5218) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4wifirssih<-75>, i4wifirssil<-85>, i4wifirssih_ho<-78>, i4wifirssil_ho<-88>, i4wifisnrh<10>, i4wifisnrl<6>
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5221) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4ltersrph<-106>, i4ltersrpm<-111>, i4ltersrpl<-116>, i4ltersrqh<5>, i4ltersrqm<3>, i4ltersrql<1>
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5224) [RDS-I][RU][rds_ru_rpl_gen][RDS] current rds ru status: i4wifirssi<-69>, i4wifisnr<9999>, i4ltersrp<-141>, i4ltersrq<0>, u4active_ran<1> 
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5227) [RDS-I][RU][rds_ru_rpl_gen][RDS] current wifi backhaul : rtp_plr<0>, rtp_jitter<0>, ping_ind<0>
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5230) [RDS-I][RU][rds_ru_rpl_gen][RDS] Call stat : IR92<0>, IR94<0> 
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5236) [RDS-I][RU][RDS IMS/MMS][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5241) [RDS-I][RU][RDS IMS/MMS WIFI][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5246) [RDS-I][RU][RDS IMS/MMS CELL][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:44.981   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5250) [RDS-I][RU][RDS EMG][rds_ru_rpl_gen] Ori:(254,254) New:(254,254)
+
+07-28 17:02:44.981  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:44.981  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 615 incoming
+
+07-28 17:02:44.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:44.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:44.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 615 
+
+07-28 17:02:44.981  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  388) [RDS][IF][rds_urc_hdl] data_base update: i4wifirssi(-69) 
+
+07-28 17:02:45.541   824   824 W viarild : type=1400 audit(0.0:123335): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:45.546   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:45.583   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39052
+
+07-28 17:02:45.584   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:46.016   441   441 I thermal_repeater: select timeout
+
+07-28 17:02:46.034   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:46.034   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=37000
+
+07-28 17:02:46.034   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:46.034   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:46.036  2678  2683 D FRR     : buff=0x7fb368b240, len=192
+
+07-28 17:02:46.036  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=48, "change@/devices/platform/battery/power_supply/ac"
+
+07-28 17:02:46.036  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:46.036  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:46.037   965   981 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:46.037   965   981 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:46.038  2678  2683 D FRR     : buff=0x7fb368b240, len=195
+
+07-28 17:02:46.038  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=49, "change@/devices/platform/battery/power_supply/usb"
+
+07-28 17:02:46.038  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:46.038  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:46.040   965  1969 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:46.040   965  1969 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:46.041  2678  2683 D FRR     : buff=0x7fb368b240, len=210
+
+07-28 17:02:46.041  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=54, "change@/devices/platform/battery/power_supply/wireless"
+
+07-28 17:02:46.041  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:46.041  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:46.042   965  1507 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:46.042   965  1507 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:46.054  2678  2683 D FRR     : buff=0x7fb368b240, len=961
+
+07-28 17:02:46.054  2678  2683 D FRR     : uevent[0]=0x7fb368b240, len=53, "change@/devices/platform/battery/power_supply/battery"
+
+07-28 17:02:46.054  2678  2683 D FRR     : voteFps(60, 0)
+
+07-28 17:02:46.054  2678  2683 D FRR     : ThermalListener loop:
+
+07-28 17:02:46.055   965  2010 D BatteryService: mBatteryVoltage=4353, batteryLevel=50
+
+07-28 17:02:46.055   965  2010 V BatteryService: VNOILBS mScreenOn=true level=100 mCriticalBatteryLevel=3 mNotificationLowBatteryStates=false OS_VERSION=true mNotificationChargeStates=true status=5
+
+07-28 17:02:46.055   965  2010 V BatteryService: VNOILBS, turn off battery light.
+
+07-28 17:02:46.056   965   965 V ActivityManager: Broadcast sticky: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } ordered=false userid=-1 callerApp=null
+
+07-28 17:02:46.058  1322  1322 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.058  1322  1322 D KeyguardUpdateMonitor: handleBatteryUpdate
+
+07-28 17:02:46.059  7934  7934 D MusicService: ========action = android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.060  1322  1322 I BatteryController: SystemUI|status = 5, mLastStatus = 5, mPluggedIn = true, mLastPluggedIn = true
+
+07-28 17:02:46.060  1484  1484 I WarningMessage: receiver: action isandroid.intent.action.BATTERY_CHANGED mBatteryPowerConnetDialog=true mShowChargerOverVoltageDialog=true
+
+07-28 17:02:46.060  1484  1484 D DeviceListener: ++onReceive++:android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.060  1484  1484 D DeviceListener: onReceiveandroid.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.060  1322  1322 I BatteryController: SystemUI|mLevel = 100, mLastLevel = 100
+
+07-28 17:02:46.060  1484  1484 I UsbDeviceManagerService: mUsbReceiver action:android.intent.action.BATTERY_CHANGED mConnected:false mLastConnected:false
+
+07-28 17:02:46.060  1322  1322 D PowerUI : buckets   .....15 .. 10 .. 3
+
+07-28 17:02:46.061  1322  1322 D PowerUI : level          100 --> 100
+
+07-28 17:02:46.061  1322  1322 D PowerUI : status         5 --> 5
+
+07-28 17:02:46.061  1322  1322 D PowerUI : plugType       2 --> 2
+
+07-28 17:02:46.061  1322  1322 D PowerUI : invalidCharger 0 --> 0
+
+07-28 17:02:46.061  1322  1322 D PowerUI : bucket         1 --> 1
+
+07-28 17:02:46.061  1322  1322 D PowerUI : plugged        true --> true
+
+07-28 17:02:46.061  1997  1997 D SwitcherUpdateMonitor: receive broadcast, action = android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.063   965  1954 V ActivityManager: Broadcast: Intent { act=com.vivo.dismiss.lowpower flg=0x10 } ordered=false userid=0 callerApp=ProcessRecord{a9d1b8a 1322:com.android.systemui/u0a17}
+
+07-28 17:02:46.063  1322  1322 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mQuickChargeHealth = 2, batteryHealth = 2
+
+07-28 17:02:46.063  1322  1322 I KeyguardSmartUpdateMonitor: handleChargingModeChanged, mCurrentEngineState = 0, engineState = -2
+
+07-28 17:02:46.064   965   965 D FeatureService: onReceive action android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.064   965   965 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+
+07-28 17:02:46.065   965  1229 D WifiController: DeviceActiveState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:46.065   965  1229 D WifiController: StaEnabledState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:46.065   965  1229 D WifiController: DefaultState{ when=0 what=155652 arg1=2 target=com.android.internal.util.StateMachine$SmHandler }
+
+07-28 17:02:46.065   965  1229 D WifiController: battery changed pluggedType: 2
+
+07-28 17:02:46.547   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:46.541   824   824 W viarild : type=1400 audit(0.0:123336): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:46.661 20101 20101 W Chrome_IOThread: type=1400 audit(0.0:123337): avc: denied { search } for name="20117" dev="proc" ino=266693 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:isolated_app:s0:c512,c768 tclass=dir permissive=0
+
+07-28 17:02:47.165   965  1837 D AES     : AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+
+07-28 17:02:47.167   965  1837 W Watchdog: **Get SF Time **1
+
+07-28 17:02:47.167   965  1837 D AES     : AEEIOCTL_RT_MON_Kick IOCTL,cmd= -2147192822, lParam=300. 
+
+07-28 17:02:47.167   965  1837 W Watchdog: SWT Watchdog before synchronized:117239109
+
+07-28 17:02:47.167   965  1837 W Watchdog: SWT Watchdog after synchronized:117239109
+
+07-28 17:02:47.547   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:47.541   824   824 W viarild : type=1400 audit(0.0:123338): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:47.726   965  1212 V AlarmAlign: addAlarm pkg = com.tencent.mm, action = com.tencent.mm.TrafficStatsReceiver, whenElapsed = 905999640
+
+07-28 17:02:47.726   965  1212 D AlarmManager:  whichBatch = -2
+
+07-28 17:02:47.726   965  1212 V AlarmAlign: checkSet SCREEN_ON, type = 3, when = 905711914
+
+07-28 17:02:47.726   965  1212 V AlarmAlign: setLocked to kernel, type = 3, when = 905711914, curTime = 905699640
+
+07-28 17:02:47.726   965  1212 V AlarmAlign: mAlarmBatches = 47, triggerList = 1
+
+07-28 17:02:47.726   965  1212 V AlarmAlign: triggerList has deliver.1
+
+07-28 17:02:47.726   965  1212 D DataShapingService: Alarm manager openLteDataUpLinkGate: false
+
+07-28 17:02:47.726   965  1212 V AlarmManager: openLteGateSuccess = false
+
+07-28 17:02:47.730   965  1212 V ActivityManager: Broadcast: Intent { act=com.tencent.mm.TrafficStatsReceiver flg=0x114 (has extras) } ordered=true userid=0 callerApp=null
+
+07-28 17:02:47.739   965  1212 V AlarmAlign: triggerAlarm v at 905699640, size=1, hasWakeup=false, mWake_Set=true, mNextWakeup=905795448, mNextNonWakeup=905711914, mBatch.end=907222238, why=8
+
+07-28 17:02:47.754   965  1227 D WifiStateMachine:  ConnectedState (when=-4ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117239696/905699668 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-69 f=2412 sc=80 link=65 tx=15.2, 0.0, 0.0  rx=13.4 bcn=0 [on:0 tx:0 rx:0 period:2992] from screen [on:0 period:-2005985846] gl hn rssi=-64 ag=0 hr ticks 5,266,807 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:47.754   965  1227 D WifiStateMachine:  L2ConnectedState (when=-5ms what=131155 arg1=137!CMD_RSSI_POLL  rt=117239697/905699668 137 0 "beta-test" 3c:8c:40:e4:3c:f2 rssi=-69 f=2412 sc=80 link=65 tx=15.2, 0.0, 0.0  rx=13.4 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:-2005985846] gl hn rssi=-64 ag=0 hr ticks 5,266,807 ls-=0 [56,56,60,60,65] brc=0 lrc=0 offload-stopped
+
+07-28 17:02:47.755   965  1227 D WifiStateMachine:  get link layer stats 0
+
+07-28 17:02:47.760   965  1227 I WifiStateMachine: fetchRssiLinkSpeedAndFrequencyNative, newRssi:-71, newLinkSpeed:65, SSID:"beta-test"
+
+07-28 17:02:47.762   965  1227 D WifiStateMachine: mLastSignalLevel:2, newSignalLevel:2
+
+07-28 17:02:47.763   965  1227 E WifiStateMachine: calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+
+07-28 17:02:47.767   965  1227 V ActivityManager: Broadcast sticky: Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{f5c5ef3 965:system/1000}
+
+07-28 17:02:47.768   965  1256 D WifiWatchdogStateMachine: RSSI current: 2 new: -71, 2
+
+07-28 17:02:47.769  1322  1836 I VivoNetworkController: SystemUI|action = android.net.wifi.RSSI_CHANGED
+
+07-28 17:02:47.777  3404  3404 D ActivityThread: BDC-Calling finishReceiver: IIntentReceiver=5ea875c
+
+07-28 17:02:47.777   965   965 D AlarmManager: onSendFinished begin
+
+07-28 17:02:47.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  436) [RDS-I][ru_syssig_hndler] Send Event: 688 
+
+07-28 17:02:47.974   312 31395 I MAL-Daemon:  (        ru_syssig_hndler,  437) [RDS-I][RDS][RU][ru_syssig_hndler] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:47.974   312 31395 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:47.974   312 31395 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 688 to 602 with ret(0)
+
+07-28 17:02:47.974   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 688 
+
+07-28 17:02:47.978   312   682 D MAL-Daemon:  (     ru_wsl_poll_wpainfo,  657) [RDS-D][RDS][RU][ru_wsl_poll_wpainfo]socket recv pktlen(48) 
+
+07-28 17:02:47.978   312   682 D MAL-Daemon:  (rds_ru_ws_rssi_timer_exp,  770) [RDS-D][RU][rds_ru_ws_rssi_timer_expire_hdlr][RDS] get rssi = -71, snr = 9999 
+
+07-28 17:02:47.978   312   682 I MAL-Daemon:  (  ru_wsl_wifi_status_ind,  752) [RDS-I][RDS][RU][ru_wsl_wifi_status_ind] ru_check_ctx_ptr<0xf5f34d9c, 0xf5f34d9c>
+
+07-28 17:02:47.978   312   682 W MAL-Daemon:  (    mdfx_task_send_event,  636) mdfx_task_send_event(): [ACT] should NOT enter this leagcy API!!
+
+07-28 17:02:47.978   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 604 to 602 with ret(0)
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          ru_get_netstat, 5599) [RDS-I][RU][ru_get_netstat] netstat <thrghpt, pkterrt>, wifi <1768, 0%>, mobile <0, 0%>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 614 to 1236 with ret(0)
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (             rds_ru_task,  454) [RDS-I][RU][rds_ru_task] RCV Event: 604 
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (  rds_ru_wifi_status_ind, 1379) [RDS-I][RU][EVENT_RU_WS_WIFI_STATUS_IND] fgwifi_en:1(no use) i4wifirssi:0xffffffb9 i4wifisnr:0x270f
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (    ru_send_event_entity,  368) [RDS-I][RDS][RU][ru_send_event_entity] send event 615 to 1236 with ret(0)
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <0>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <1>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (      rds_cell_only_orng, 3673) [RDS-I][RU][RDS IMS/MMS][rds_cell_only_orng] 
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <2>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <3>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <4>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5180) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, UI Policy : <3>, RDS Policy : <3>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <5>, RAN1 : <255> ,RAN2 : <255>
+
+07-28 17:02:47.979   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5191) [RDS-I][RU][rds_ru_rpl_gen][RDS][OP0] TYPE : <6>, RAN1 : <254> ,RAN2 : <254>
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (    rds_op_check_feature,  324) [RDS-I][RDS][OP][rds_op_check_feature] operator id(0) check feature<0>, curr_opmsk is <1>, sys_opmsk is <0x0001, 1>
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 0 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 1 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (  rds_ru_ims_vops_update, 4980) [RDS-I][RU][rds_ru_ims_vops_update][RDS IMS]Policy type: 2 IMS VOPS IE is Disabled, update IMS RPL from Ori:(254, 254) New:(254,254)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5215) [RDS-I][RU][rds_ru_rpl_gen][RDS] Current policy: fgimsolte_en<0>, fgwfc_en<0>, erdspolicy<3>, 
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5218) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4wifirssih<-75>, i4wifirssil<-85>, i4wifirssih_ho<-78>, i4wifirssil_ho<-88>, i4wifisnrh<10>, i4wifisnrl<6>
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5221) [RDS-I][RU][rds_ru_rpl_gen][RDS] Threshold i4ltersrph<-106>, i4ltersrpm<-111>, i4ltersrpl<-116>, i4ltersrqh<5>, i4ltersrqm<3>, i4ltersrql<1>
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5224) [RDS-I][RU][rds_ru_rpl_gen][RDS] current rds ru status: i4wifirssi<-71>, i4wifisnr<9999>, i4ltersrp<-141>, i4ltersrq<0>, u4active_ran<1> 
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5227) [RDS-I][RU][rds_ru_rpl_gen][RDS] current wifi backhaul : rtp_plr<0>, rtp_jitter<0>, ping_ind<0>
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5230) [RDS-I][RU][rds_ru_rpl_gen][RDS] Call stat : IR92<0>, IR94<0> 
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5236) [RDS-I][RU][RDS IMS/MMS][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5241) [RDS-I][RU][RDS IMS/MMS WIFI][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5246) [RDS-I][RU][RDS IMS/MMS CELL][rds_ru_rpl_gen] Ori:(254,254)/(255,255) New:(254,254)/(255,255)
+
+07-28 17:02:47.980   312   682 I MAL-Daemon:  (          rds_ru_rpl_gen, 5250) [RDS-I][RU][RDS EMG][rds_ru_rpl_gen] Ori:(254,254) New:(254,254)
+
+07-28 17:02:47.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 614 incoming
+
+07-28 17:02:47.980  1970  2068 I MFI-Conn:  (     mfia_task_bootstrap,  944) mfia_task_bootstrap(): an event 615 incoming
+
+07-28 17:02:47.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 614 
+
+07-28 17:02:47.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  378) [RDS][IF][rds_urc_hdl] data_base update: pkterrt(0) 
+
+07-28 17:02:47.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  263) [RDS][rds_urc_hdl] RCV Event: 615 
+
+07-28 17:02:47.980  1970  2110 I MFI-Conn:  (             rds_urc_hdl,  388) [RDS][IF][rds_urc_hdl] data_base update: i4wifirssi(-71) 
+
+07-28 17:02:48.548   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:48.541   824   824 W viarild : type=1400 audit(0.0:123339): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:48.584   427   793 E VT      : [SRV] [VT THREAD] [VT_Bind] des = volte_imsvt1 Fail to connect . retry count: 39053
+
+07-28 17:02:48.585   427   793 D VT      : [SRV] isIMCBrun : False
+
+07-28 17:02:49.067   439   439 I thermal_src: wake up function 3
+
+07-28 17:02:49.067   439   439 I thermal_src: TA_DAEMON_CMD_GET_TPCB cmd=0x5, len=4 PCB=37000
+
+07-28 17:02:49.067   439   439 I thermal_src: TA_DAEMON_CMD_SET_TTJ cmd=0x4, len=4 Tj=85000
+
+07-28 17:02:49.068   439   439 I thermal_src: waiting NOTIFY from kernel...
+
+07-28 17:02:49.354  1484  3817 I System.out: [socket][2622:46721] exception
+
+07-28 17:02:49.355   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:49.358  1484  3817 I System.out: [CDS]rx timeout:8000
+
+07-28 17:02:49.358  1484  3817 I System.out: [socket][2622] connection clients3.google.com/74.125.204.101:80;LocalPort=43253(8000)
+
+07-28 17:02:49.358  1484  3817 I System.out: [CDS]connect[clients3.google.com/74.125.204.101:80] tm:8
+
+07-28 17:02:49.358  1484  3817 D Posix   : [Posix_connect Debug]Process com.vivo.daemonService :80 
+
+07-28 17:02:49.360   411  1172 D SocketClient: SocketClient sendData done: 
+
+07-28 17:02:49.549   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====
+
+07-28 17:02:49.541   824   824 W viarild : type=1400 audit(0.0:123340): avc: denied { write } for name="mal-mfi" dev="tmpfs" ino=8735 scontext=u:r:viarild:s0 tcontext=u:object_r:mal_mfi_socket:s0 tclass=sock_file permissive=0
+
+07-28 17:02:49.597 17629 17635 I System  : FinalizerDaemon: finalize objects = 27
+
+07-28 17:02:50.550   798   824 E MFI-Conn:  (     mfia_task_bootstrap,  587) mfia_task_bootstrap(): retrying to connect to mal-mfi error 13!! ====

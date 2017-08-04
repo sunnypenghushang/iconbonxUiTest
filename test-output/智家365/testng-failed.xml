@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [智家365]">
+  <listeners>
+    <listener class-name="com.icarbonx.testRetry.Retrylistener"/>
+  </listeners>
+  <test name="init(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="phone" value="xiaomi"/>
+    <parameter name="platformVersion" value="6.0"/>
+    <parameter name="reportreceiver" value="penghong@orvibo.com"/>
+    <parameter name="udid" value="CQG64DOJCUBAV86S"/>
+    <parameter name="testpassword" value="8888"/>
+    <parameter name="testaccount" value="13088884762"/>
+    <classes>
+      <class name="com.icarbonx.testcase.MeWoTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="defaltHomePage"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.icarbonx.testcase.MeWoTestCase -->
+    </classes>
+  </test> <!-- init(failed) -->
+</suite> <!-- Failed suite [智家365] -->

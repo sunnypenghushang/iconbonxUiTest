@@ -1,0 +1,26 @@
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.bindinputcheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.checkbind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : Skipped, method:Personcenter.zmodifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@47ef968d]
+2017-06-29 18:01:16 dev_log : All Tests is finished
+2017-06-29 18:02:56 dev_log : All Tests is finished
+2017-06-29 18:19:19 dev_log : All Tests is finished
+2017-06-29 19:20:25 dev_log : All Tests is finished
+2017-06-29 19:21:24 dev_log : All Tests is finished
+2017-06-29 19:21:39 dev_log : All Tests is finished
+2017-06-29 19:23:32 dev_log : All Tests is finished
+2017-06-29 19:24:12 dev_log : All Tests is finished

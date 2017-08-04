@@ -1,0 +1,52 @@
+2017-07-11 10:54:11 dev_log : All Tests is finished
+2017-07-11 10:54:34 dev_log : All Tests is finished
+2017-07-11 10:57:56 dev_log : All Tests is finished
+2017-07-11 11:03:05 dev_log : [INFO] 测试报告发送完成
+2017-07-11 11:03:06 dev_log : All Tests is finished
+2017-07-11 11:10:13 dev_log : All Tests is finished
+2017-07-11 11:23:36 dev_log : All Tests is finished
+2017-07-11 11:24:16 dev_log : All Tests is finished
+2017-07-11 11:28:19 dev_log : All Tests is finished
+2017-07-11 11:28:31 dev_log : All Tests is finished
+2017-07-11 11:29:39 dev_log : All Tests is finished
+2017-07-11 11:32:15 dev_log : All Tests is finished
+2017-07-11 11:33:57 dev_log : [INFO] 设置屏幕休眠时间
+2017-07-11 11:34:12 dev_log : [INFO] 测试报告发送完成
+2017-07-11 11:34:13 dev_log : All Tests is finished
+2017-07-11 11:34:48 dev_log : [INFO] 设置屏幕休眠时间
+2017-07-11 11:34:49 dev_log : All Tests is finished
+2017-07-11 11:37:08 dev_log : [INFO] 设置屏幕休眠时间
+2017-07-11 11:37:08 dev_log : [INFO] 连接appium服务器
+2017-07-11 11:37:13 dev_log : [INFO] ******************************************************
+2017-07-11 11:37:13 dev_log : All Tests is finished
+2017-07-11 11:45:17 dev_log : [INFO] 设置屏幕休眠时间
+2017-07-11 11:45:17 dev_log : [INFO] 连接appium服务器
+2017-07-11 11:45:19 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 11:45:20 dev_log : [INFO] ******************************************************
+2017-07-11 11:45:20 dev_log : All Tests is finished
+2017-07-11 11:49:24 dev_log : [INFO] 连接appium服务器
+2017-07-11 11:49:24 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 11:49:25 dev_log : [INFO] ******************************************************
+2017-07-11 11:49:25 dev_log : All Tests is finished
+2017-07-11 11:49:56 dev_log : [INFO] 连接appium服务器
+2017-07-11 11:49:56 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 11:49:57 dev_log : [INFO] ******************************************************
+2017-07-11 11:49:57 dev_log : All Tests is finished
+2017-07-11 11:51:15 dev_log : [INFO] 连接appium服务器
+2017-07-11 11:51:15 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 11:51:16 dev_log : [INFO] ******************************************************
+2017-07-11 11:51:16 dev_log : All Tests is finished
+2017-07-11 15:04:33 dev_log : [INFO] 连接appium服务器
+2017-07-11 15:04:33 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 15:04:34 dev_log : [INFO] ******************************************************
+2017-07-11 15:04:34 dev_log : All Tests is finished
+2017-07-11 15:07:37 dev_log : [INFO] 连接appium服务器
+2017-07-11 15:07:37 dev_log : Skipped, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb]
+2017-07-11 15:07:38 dev_log : [INFO] ******************************************************
+2017-07-11 15:07:38 dev_log : All Tests is finished
+2017-07-11 15:10:52 dev_log : [INFO] 设置屏幕休眠时间
+2017-07-11 15:10:52 dev_log : [INFO] 连接appium服务器
+2017-07-11 15:11:24 dev_log : [INFO] groups:0
+2017-07-11 15:11:24 dev_log : Success, method:Initializtion.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.Initializtion@627551fb] time:371
+2017-07-11 15:11:24 dev_log : [INFO] ******************************************************
+2017-07-11 15:11:30 dev_log : All Tests is finished

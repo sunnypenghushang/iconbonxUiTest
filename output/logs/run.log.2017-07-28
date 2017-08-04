@@ -1,0 +1,177 @@
+2017-07-28 11:52:23 dev_log : [INFO] 连接appium服务器
+2017-07-28 11:52:51 dev_log : [INFO] ******************************************************
+2017-07-28 11:52:51 dev_log : All Tests is finished
+2017-07-28 14:47:10 dev_log : [INFO] 连接appium服务器
+2017-07-28 14:49:26 dev_log : [INFO] ******************************************************
+2017-07-28 14:49:26 dev_log : All Tests is finished
+2017-07-28 14:51:09 dev_log : [INFO] 连接appium服务器
+2017-07-28 14:51:34 dev_log : [INFO] ******************************************************
+2017-07-28 14:51:34 dev_log : All Tests is finished
+2017-07-28 15:27:12 dev_log : [INFO] 连接appium服务器
+2017-07-28 15:27:57 dev_log : [INFO] ******************************************************
+2017-07-28 15:27:57 dev_log : All Tests is finished
+2017-07-28 16:11:52 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:12:15 dev_log : [INFO] ******************************************************
+2017-07-28 16:12:15 dev_log : All Tests is finished
+2017-07-28 16:13:52 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:14:15 dev_log : [INFO] ******************************************************
+2017-07-28 16:14:15 dev_log : All Tests is finished
+2017-07-28 16:14:54 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:14:54 dev_log : [INFO] ******************************************************
+2017-07-28 16:14:54 dev_log : All Tests is finished
+2017-07-28 16:15:57 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:16:22 dev_log : [INFO] ******************************************************
+2017-07-28 16:16:22 dev_log : All Tests is finished
+2017-07-28 16:17:40 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:18:04 dev_log : [INFO] ******************************************************
+2017-07-28 16:18:09 dev_log : All Tests is finished
+2017-07-28 16:18:54 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:19:20 dev_log : [INFO] ******************************************************
+2017-07-28 16:19:25 dev_log : All Tests is finished
+2017-07-28 16:19:35 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:19:59 dev_log : [INFO] ******************************************************
+2017-07-28 16:20:05 dev_log : All Tests is finished
+2017-07-28 16:21:40 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:22:05 dev_log : [INFO] ******************************************************
+2017-07-28 16:22:10 dev_log : All Tests is finished
+2017-07-28 16:23:23 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:23:44 dev_log : [INFO] ******************************************************
+2017-07-28 16:23:49 dev_log : All Tests is finished
+2017-07-28 16:24:11 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:24:31 dev_log : [INFO] ******************************************************
+2017-07-28 16:24:36 dev_log : All Tests is finished
+2017-07-28 16:30:37 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:30:59 dev_log : [INFO] ******************************************************
+2017-07-28 16:31:04 dev_log : All Tests is finished
+2017-07-28 16:34:55 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:35:17 dev_log : [INFO] groups:0
+2017-07-28 16:35:17 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:35:17 dev_log : [INFO] groups:0
+2017-07-28 16:35:17 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:35:17 dev_log : [INFO] groups:0
+2017-07-28 16:35:17 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:20
+2017-07-28 16:35:37 dev_log : 执行失败，已抓取日志，日志名为：201707281635defaltHomePage.txt
+2017-07-28 16:35:39 dev_log : 已截图，图片名为：defaltHomePage201707281635.png
+2017-07-28 16:35:39 dev_log : [INFO] 成功比列:100
+2017-07-28 16:35:39 dev_log : [INFO] ******************************************************
+2017-07-28 16:35:45 dev_log : All Tests is finished
+2017-07-28 16:36:15 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:36:40 dev_log : [INFO] groups:0
+2017-07-28 16:36:40 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:36:40 dev_log : [INFO] groups:0
+2017-07-28 16:36:40 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:36:40 dev_log : [INFO] groups:0
+2017-07-28 16:36:40 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:18
+2017-07-28 16:37:01 dev_log : 执行失败，已抓取日志，日志名为：201707281636defaltHomePage.txt
+2017-07-28 16:37:03 dev_log : 已截图，图片名为：defaltHomePage201707281637.png
+2017-07-28 16:37:03 dev_log : [INFO] 成功比列:100
+2017-07-28 16:37:03 dev_log : [INFO] ******************************************************
+2017-07-28 16:37:08 dev_log : All Tests is finished
+2017-07-28 16:37:59 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:38:20 dev_log : [INFO] groups:0
+2017-07-28 16:38:20 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:38:20 dev_log : [INFO] groups:0
+2017-07-28 16:38:20 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:38:20 dev_log : [INFO] groups:0
+2017-07-28 16:38:20 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:12
+2017-07-28 16:38:40 dev_log : 执行失败，已抓取日志，日志名为：201707281638defaltHomePage.txt
+2017-07-28 16:38:42 dev_log : 已截图，图片名为：defaltHomePage201707281638.png
+2017-07-28 16:38:42 dev_log : [INFO] 成功比列:100
+2017-07-28 16:38:42 dev_log : [INFO] ******************************************************
+2017-07-28 16:38:47 dev_log : All Tests is finished
+2017-07-28 16:54:58 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:55:18 dev_log : [INFO] groups:0
+2017-07-28 16:55:18 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:55:18 dev_log : [INFO] groups:0
+2017-07-28 16:55:18 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:55:18 dev_log : [INFO] groups:0
+2017-07-28 16:55:18 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:12
+2017-07-28 16:55:38 dev_log : 执行失败，已抓取日志，日志名为：201707281655defaltHomePage.txt
+2017-07-28 16:55:40 dev_log : 已截图，图片名为：defaltHomePage201707281655.png
+2017-07-28 16:55:40 dev_log : [INFO] 成功比列:100
+2017-07-28 16:55:40 dev_log : [INFO] ******************************************************
+2017-07-28 16:55:45 dev_log : All Tests is finished
+2017-07-28 16:58:03 dev_log : [INFO] 连接appium服务器
+2017-07-28 16:58:26 dev_log : [INFO] groups:0
+2017-07-28 16:58:26 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:58:26 dev_log : [INFO] groups:0
+2017-07-28 16:58:26 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 16:58:26 dev_log : [INFO] groups:0
+2017-07-28 16:58:26 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:16
+2017-07-28 16:58:46 dev_log : 执行失败，已抓取日志，日志名为：201707281658defaltHomePage.txt
+2017-07-28 16:58:48 dev_log : 已截图，图片名为：defaltHomePage201707281658.png
+2017-07-28 16:58:48 dev_log : [INFO] 成功比列:100
+2017-07-28 16:58:48 dev_log : [INFO] ******************************************************
+2017-07-28 16:58:54 dev_log : All Tests is finished
+2017-07-28 16:59:57 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:00:17 dev_log : [INFO] groups:0
+2017-07-28 17:00:17 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:00:17 dev_log : [INFO] groups:0
+2017-07-28 17:00:17 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:00:18 dev_log : [INFO] groups:0
+2017-07-28 17:00:18 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:21
+2017-07-28 17:00:38 dev_log : 执行失败，已抓取日志，日志名为：201707281700defaltHomePage.txt
+2017-07-28 17:00:40 dev_log : 已截图，图片名为：defaltHomePage201707281700.png
+2017-07-28 17:00:40 dev_log : [INFO] 成功比列:100
+2017-07-28 17:00:40 dev_log : [INFO] ******************************************************
+2017-07-28 17:00:45 dev_log : All Tests is finished
+2017-07-28 17:02:08 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:02:29 dev_log : [INFO] groups:0
+2017-07-28 17:02:29 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:02:29 dev_log : [INFO] groups:0
+2017-07-28 17:02:29 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:02:29 dev_log : [INFO] groups:0
+2017-07-28 17:02:29 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:11
+2017-07-28 17:02:50 dev_log : 执行失败，已抓取日志，日志名为：201707281702defaltHomePage.txt
+2017-07-28 17:02:52 dev_log : 已截图，图片名为：defaltHomePage201707281702.png
+2017-07-28 17:02:52 dev_log : [INFO] 成功比列:100
+2017-07-28 17:02:52 dev_log : [INFO] ******************************************************
+2017-07-28 17:02:57 dev_log : All Tests is finished
+2017-07-28 17:11:34 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:11:54 dev_log : [INFO] groups:0
+2017-07-28 17:11:55 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:11:55 dev_log : [INFO] groups:0
+2017-07-28 17:11:55 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:11:55 dev_log : [INFO] groups:0
+2017-07-28 17:11:55 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:16
+2017-07-28 17:12:15 dev_log : 执行失败，已抓取日志，日志名为：201707281711defaltHomePage.txt
+2017-07-28 17:12:17 dev_log : 已截图，图片名为：defaltHomePage201707281712.png
+2017-07-28 17:12:17 dev_log : [INFO] 成功比列:100
+2017-07-28 17:12:17 dev_log : [INFO] ******************************************************
+2017-07-28 17:12:22 dev_log : All Tests is finished
+2017-07-28 17:13:22 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:13:43 dev_log : [INFO] groups:0
+2017-07-28 17:13:44 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:13:44 dev_log : [INFO] groups:0
+2017-07-28 17:14:14 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:14:14 dev_log : [INFO] groups:0
+2017-07-28 17:14:16 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:2277
+2017-07-28 17:14:37 dev_log : 执行失败，已抓取日志，日志名为：201707281714defaltHomePage.txt
+2017-07-28 17:14:39 dev_log : 已截图，图片名为：defaltHomePage201707281714.png
+2017-07-28 17:14:39 dev_log : [INFO] 成功比列:100
+2017-07-28 17:14:39 dev_log : [INFO] ******************************************************
+2017-07-28 17:14:44 dev_log : All Tests is finished
+2017-07-28 17:15:09 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:15:30 dev_log : [INFO] groups:0
+2017-07-28 17:15:31 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:15:31 dev_log : [INFO] groups:0
+2017-07-28 17:15:31 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:15:31 dev_log : [INFO] groups:0
+2017-07-28 17:15:31 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:15
+2017-07-28 17:15:51 dev_log : 执行失败，已抓取日志，日志名为：201707281715defaltHomePage.txt
+2017-07-28 17:15:53 dev_log : 已截图，图片名为：defaltHomePage201707281715.png
+2017-07-28 17:15:53 dev_log : [INFO] 成功比列:100
+2017-07-28 17:15:53 dev_log : [INFO] ******************************************************
+2017-07-28 17:15:58 dev_log : All Tests is finished
+2017-07-28 17:16:40 dev_log : [INFO] 连接appium服务器
+2017-07-28 17:17:13 dev_log : [INFO] groups:0
+2017-07-28 17:17:13 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:17:13 dev_log : [INFO] groups:0
+2017-07-28 17:17:13 dev_log : Skipped, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255]
+2017-07-28 17:17:13 dev_log : [INFO] groups:0
+2017-07-28 17:17:13 dev_log : Failed, method:MeWoTestCase.defaltHomePage()[pri:0, instance:com.icarbonx.testcase.MeWoTestCase@5bc79255] #parameters:0 time:16
+2017-07-28 17:17:33 dev_log : 执行失败，已抓取日志，日志名为：201707281717defaltHomePage.txt
+2017-07-28 17:17:35 dev_log : 已截图，图片名为：defaltHomePage201707281717.png
+2017-07-28 17:17:35 dev_log : [INFO] 成功比列:100
+2017-07-28 17:17:35 dev_log : [INFO] ******************************************************
+2017-07-28 17:17:41 dev_log : All Tests is finished
