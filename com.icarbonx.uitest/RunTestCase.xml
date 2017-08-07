@@ -3,7 +3,7 @@
 <suite name="智家365"  preserve-order="true">
 
     <listeners>
-        <listener class-name="com.icarbonx.framework.Retrylistener" />
+        <listener class-name="framework.Retrylistener" />
     </listeners>
 	<test name="init" preserve-order="true">
 	    <parameter name="port" value="4723" />
@@ -16,7 +16,7 @@
 		
 
 		<classes>
-	        <class name="testcase。LoginTestCase" />
+	        <class name="testcase.LoginTestCase" />
 		
 		</classes>
 

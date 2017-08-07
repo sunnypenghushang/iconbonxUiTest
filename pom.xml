@@ -22,6 +22,20 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+      
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+     	<configuration>  
+        	<suiteXmlFiles>  
+                <suiteXmlFile>RunTestCase.xml</suiteXmlFile>  
+            </suiteXmlFiles>  
+      	</configuration>  
+    <version>2.20</version>
+      
+      </plugin>
+      
+      
     </plugins>
     <defaultGoal>compile</defaultGoal>
   </build>
@@ -83,6 +97,8 @@
     <artifactId>jsch</artifactId>
     <version>0.1.53</version>
    </dependency>
+  
+
 
    </dependencies>
    

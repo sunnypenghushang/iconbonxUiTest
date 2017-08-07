@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [智家365]">
   <listeners>
-    <listener class-name="com.icarbonx.testRetry.Retrylistener"/>
+    <listener class-name="framework.Retrylistener"/>
   </listeners>
   <test name="init(failed)">
     <parameter name="port" value="4723"/>
@@ -13,13 +13,13 @@
     <parameter name="testpassword" value="8888"/>
     <parameter name="testaccount" value="13088884762"/>
     <classes>
-      <class name="com.icarbonx.testcase.MeWoTestCase">
+      <class name="testcase.LoginTestCase">
         <methods>
-          <include name="tearDown"/>
-          <include name="defaltHomePage"/>
-          <include name="beforeMethod"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- com.icarbonx.testcase.MeWoTestCase -->
+      </class> <!-- testcase.LoginTestCase -->
     </classes>
   </test> <!-- init(failed) -->
 </suite> <!-- Failed suite [智家365] -->
